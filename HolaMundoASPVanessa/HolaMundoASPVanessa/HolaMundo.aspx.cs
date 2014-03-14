@@ -13,5 +13,10 @@ namespace HolaMundoASPVanessa
         {
 
         }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            Label1.Text = "Hello Vane!!!";
+        }
     }
 }
